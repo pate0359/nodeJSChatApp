@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color:#bfb;
+}
+
+img
+{
+	position: fixed; 
+	bottom: 42px;
+	right:16px;
+	opacity:0.4;
+}
+
+
+
+
+#inputForm
+{
+	background: #9e9; 
+	padding: 3px; 
+	position: fixed; 
+	bottom: 0; 
+	width: 100%;
+	color:rgb(31, 127, 31);
+}
+
+#name, #msg
+{
+	border: 0px; 
+	padding: 10px; 
+	margin-right: 2px; 
+}
+
+#name
+{
+	width: 18%;
+}
+
+#msg
+{
+	width: 39%;
+}
+
+
+
+#inputForm button
+{
+	width: 22%; 
+	background: rgb(31, 127, 31); 
+	border: none; 
+	padding: 10px;
+	color:#3d3;
+	border-radius:5px;
+}
+
+
+
+
+#msgDiv
+{
+	position: fixed; 
+	bottom:88px;
+	background:#CFF;
+	padding:10px;
+	width: 100%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+
+#messages
+{
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#messages li
+{
+	padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd)
+{
+	background: #dfd; 
+}
+
+p
+{
+	padding:0px;
+	margin:0px;
+	position:inherit;
+	display:inline-block;
+	font-size:9px;
+	color:#040;
+}
